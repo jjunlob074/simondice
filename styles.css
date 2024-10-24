@@ -1,0 +1,94 @@
+
+  .container {
+    padding:50px;
+    background-color: #ccc;
+    width: 100%;
+
+  }
+  #game-container {
+    margin: 100px auto;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    background-color: black; /* Color de fondo del contenedor */
+    border: 2px solid white;
+    outline: 10px solid #222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    border-radius: 300px 0 50px 0;
+    width: 300px;
+    height: 300px; /* Hace que los botones sean circulares */
+    margin: 40px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: border 0.2s;
+
+  }
+
+  .button:hover {
+    box-shadow: inset 5px 5px 100px 50px #fff; /* Agrega una sombra interna blanca para simular el efecto de iluminación */
+  }
+  
+  button {
+      position: absolute; 
+      top:570px;
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      border:2px solid rgb(0, 0, 0);
+      background-color: red;
+      color:white;
+      font-weight: bold;
+  }
+  button:hover {
+    border:2px solid yellow;
+    cursor:pointer;
+  }
+
+  #red {
+    background-color: red;
+    
+  }
+
+  #green {
+    transform: rotate(90deg);
+    background-color: green;
+  }
+  #yellow {
+    transform: rotate(180deg);
+    background-color: yellow;
+  }
+  #blue {
+    transform: rotate(270deg);
+    background-color: blue;
+  }
+
+  #circulo {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: none;
+    z-index: 100;
+  }
+  #counter {
+	position: absolute;
+	top: 515px;
+	background-color: #222;
+	color: crimson;
+	font-size: 2rem;
+  font-weight: bold;
+	text-align: center;
+  text-shadow: 1px 1px 2px crimson;
+	height: 2rem;
+	width: 4rem;
+	padding: 0.4rem;
+	border-radius: 5pt;
+  border: 1px solid gold;
+}

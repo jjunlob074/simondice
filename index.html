@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simón Dice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="circulo"></div>
+    <div id="game-container">
+      <div class="button" onclick="mostrarCirculo(event)" id="red"></div>
+      <div class="button" onclick="mostrarCirculo(event)" id="green"></div>
+      <div class="button" onclick="mostrarCirculo(event)" id="blue"></div>
+      <div class="button" onclick="mostrarCirculo(event)" id="yellow"></div>
+      <button id="start-button">Iniciar Juego</button>
+      <div id="counter"></div>
+      <audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" id='audio' preload='auto'></audio>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
